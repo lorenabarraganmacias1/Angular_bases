@@ -14,8 +14,12 @@ export class MainPageComponent {
     power: 1000,
   },{
     name:'goku',
-    power:3000,
-    }
+    power:10000,
+  },{
+    name:'vegeta',
+    power:7500
+  }
+
   ] ;
 
 
