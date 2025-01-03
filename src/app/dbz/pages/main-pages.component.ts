@@ -22,6 +22,17 @@ export class MainPageComponent {
 
   ] ;
 
+  onNewCharacter(character:character):void {
+
+
+    this.character.push(character);
+    
+    // console.log('Mainpage');
+    // console.log(character);
+
+
+  }
+
 
 
 }
