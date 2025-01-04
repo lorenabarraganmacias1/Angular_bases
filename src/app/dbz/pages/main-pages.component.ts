@@ -22,17 +22,33 @@ export class MainPageComponent {
 
   ] ;
 
+  // ayuda aque el nuevo personaje pase al final de la fila
   onNewCharacter(character:character):void {
 
-
     this.character.push(character);
-    
+
     // console.log('Mainpage');
     // console.log(character);
 
 
   }
 
+  onDeleteCharacter(index:number){
 
+    this.character.splice(index,1);
 
+  }
 }
+
+
+
+//el ejemplo tienes que hacer
+// logren hacer emision de un nuevo evento que se llama onDelete que va a emitir el indice
+//
+//en el main-page se va a recibir el evento, es decir, escuchar inDelete y lo conectas con su main-pages y hacer algo cuando reciba el onDeliteCharactes
+// tienes que remover el elemento basado en ese indice
+//
+//
+//
+//
+//

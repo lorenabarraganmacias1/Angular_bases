@@ -6,7 +6,10 @@
 
   <div class="col">
 
-    <app-dbz-list [characterList]="character">   </app-dbz-list>
+    onDelete
+
+    <app-dbz-list [characterList]="character"
+                  (onDelete) = "onDeleteCharacter($event)" >   </app-dbz-list>
 
 
   </div>
